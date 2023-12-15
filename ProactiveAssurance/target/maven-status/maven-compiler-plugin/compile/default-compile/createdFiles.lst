@@ -1,0 +1,8 @@
+com\howtodoinjava\app\config\MongoConfig.class
+com\howtodoinjava\app\model\Item.class
+com\howtodoinjava\app\service\impl\MongoTemplateServiceImpl.class
+com\howtodoinjava\app\repositories\ItemRepository.class
+com\howtodoinjava\app\service\MongoRepositoryService.class
+com\howtodoinjava\app\App.class
+com\howtodoinjava\app\service\MongoTemplateService.class
+com\howtodoinjava\app\service\impl\MongoRepositoryServiceImpl.class
