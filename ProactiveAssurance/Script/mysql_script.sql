@@ -9,7 +9,6 @@ CREATE TABLE `proactive_assurance` (
   `batch_number` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 CREATE TABLE `record_count` (
   `Id` int NOT NULL AUTO_INCREMENT,
