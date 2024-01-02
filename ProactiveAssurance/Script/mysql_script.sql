@@ -8,3 +8,11 @@ CREATE TABLE `proactive_assurance` (
   `createdDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+CREATE TABLE `record_count` (
+  `Id` int NOT NULL AUTO_INCREMENT,
+  `start_Date` datetime(6) DEFAULT NULL,
+  `count` int DEFAULT NULL,
+  `createdDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`Id`)
+) 
